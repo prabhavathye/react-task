@@ -4,6 +4,12 @@ import { Link, Route } from 'react-router-dom';
 import Profile from '../profile';
 
 class PostList extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      PostData : []
+    }
+  }
   render() {
     return (
       <div>
